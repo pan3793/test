@@ -40,6 +40,7 @@ body:
         - CHALLENGE - tasks requires that contributors have deep knowledge on one or more Kyuubi components,
           have good logical thinking and the ability to solve complex problems, be proficient in programming
           skills or algorithms
+
   - type: checkboxes
     attributes:
       label: Code of Conduct
@@ -48,6 +49,7 @@ body:
         - label: >
             I agree to follow this project's [Code of Conduct](https://www.apache.org/foundation/policies/conduct)
           required: true
+
   - type: checkboxes
     attributes:
       label: Search before creating
@@ -56,6 +58,7 @@ body:
             I have searched in the [task list](https://github.com/orgs/apache/projects/296) and found no similar
             tasks.
           required: true
+
   - type: checkboxes
     attributes:
       label: Mentor
@@ -65,6 +68,7 @@ body:
             I have sufficient knowledge and experience of this task, and I volunteer to be the mentor of this task
             to guide contributors to complete the task.
           required: false
+
   - type: textarea
     attributes:
       label: Skill requirements
@@ -93,8 +97,7 @@ body:
       label: Implementation steps
       description: How could it be implemented?
       placeholder: |
-        Please describe the solution to implement the task.
-        Note, please list the implementation steps in as much detail as possible so that contributors who meet
+        Please list the implementation steps in as much detail as possible so that contributors who meet
         the skill requirements could complete the task quickly and independently.
     validations:
       required: true
@@ -110,3 +113,4 @@ body:
   - type: markdown
     attributes:
       value: "Thanks for taking the time to fill out this task form!"
+
