@@ -67,9 +67,9 @@ body:
           required: false
   - type: textarea
     attributes:
-      label: Skill Requirements
+      label: Skill requirements
       description: Which stills are required for contributors who want to take this task?
-      placeholder: >
+      placeholder: |
         e.g.
         - Basic knowledge on Scala Programing Language
         - Familiar with Apache Maven, Docker and GitHub Action
@@ -81,7 +81,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Background and Goals
+      label: Background and goals
       description: What's the current problem, and what's the final status should be after the task is completed?
       placeholder: >
         Please describe the background and your goal for requesting this task.
@@ -90,7 +90,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Implementation Steps
+      label: Implementation steps
       description: How could it be implemented?
       placeholder: >
         Please describe the solution to implement the task.
@@ -99,7 +99,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Additional Context
+      label: Additional context
       placeholder: >
         Anything else that related to this task that the contributors need to know.
     validations:
