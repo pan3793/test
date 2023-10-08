@@ -81,7 +81,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Background and goals
+      label: Background and Goals
       description: What's the current problem, and what's the final status should be after the task is completed?
       placeholder: >
         Please describe the background and your goal for requesting this task.
@@ -92,8 +92,10 @@ body:
     attributes:
       label: Implementation steps
       description: How could it be implemented?
-      placeholder: >
+      placeholder: |
         Please describe the solution to implement the task.
+        Note, please list the implementation steps in as much detail as possible so that contributors who meet
+        the skill requirements could complete the task quickly and independently.
     validations:
       required: true
 
