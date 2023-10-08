@@ -29,7 +29,7 @@ body:
       value: |
         You are very welcome to propose new task for 2023 Kyuubi Code Contribution Program.
         Your brilliant ideas keep Apache Kyuubi evolving.
-        Please replace the placeholder <LEVEL> in the issue title with one of the following options:
+        Please replace the placeholder `<LEVEL>` in the issue title with one of the following options:
         - TRIVIAL - it's usually for new contributors to learn the contributor process, e.g. how to cut branch,
           how to use GitHub to send PR, how to response with reviewers, the contributor should not stay at this
           stage too long.
