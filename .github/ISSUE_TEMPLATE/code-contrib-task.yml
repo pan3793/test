@@ -45,7 +45,8 @@ body:
     attributes:
       label: 2023 Kyuubi Code Contribution Program
       description: Which stills are required for contributors who want to take this task?
-      value: [2023 Kyuubi Code Contribution Program](https://github.com/apache/kyuubi/issues/5357)
+      value: |
+        [2023 Kyuubi Code Contribution Program](https://github.com/apache/kyuubi/issues/5357)
     validations:
       required: true
 
