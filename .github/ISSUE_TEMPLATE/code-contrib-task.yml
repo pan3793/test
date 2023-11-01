@@ -41,6 +41,27 @@ body:
           have good logical thinking and the ability to solve complex problems, be proficient in programming
           skills or algorithms
 
+  - type: textarea
+    attributes:
+      label: 2023 Kyuubi Code Contribution Program
+      description: Which stills are required for contributors who want to take this task?
+      value: [2023 Kyuubi Code Contribution Program](https://github.com/apache/kyuubi/issues/5357)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: What's the level of this take?
+      multiple: false
+      options:
+        - TRIVIAL
+        - EASY
+        - MEDIUM
+        - CHALLENGE
+    validations:
+      required: true
+
   - type: checkboxes
     attributes:
       label: Code of Conduct
@@ -65,8 +86,8 @@ body:
       description: Mentor is required for MEDIUM and CHALLENGE tasks, to guide contributors to complete the task.
       options:
         - label: >
-            I have sufficient knowledge and experience of this task, and I volunteer to be the mentor of this task
-            to guide contributors to complete the task.
+            I have sufficient expertise on this task, and I volunteer to be a mentor of this task to guide
+            contributors through the task.
           required: false
 
   - type: textarea
@@ -75,7 +96,7 @@ body:
       description: Which stills are required for contributors who want to take this task?
       placeholder: |
         e.g.
-        - Basic knowledge on Scala Programing Language
+        - Basic knowledge on Scala Programming Language
         - Familiar with Apache Maven, Docker and GitHub Action
         - Basic knowledge on network programing and Apache Thrift RPC framework
         - Familiar with Apache Spark
@@ -113,4 +134,3 @@ body:
   - type: markdown
     attributes:
       value: "Thanks for taking the time to fill out this task form!"
-
