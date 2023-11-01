@@ -118,10 +118,9 @@ body:
   - type: textarea
     attributes:
       label: Additional context
+      description: Anything else that related to this task that the contributors need to know.
       value: |
         Introduction of [2023 Kyuubi Code Contribution Program](https://github.com/apache/kyuubi/issues/5357)
-      placeholder: >
-        Anything else that related to this task that the contributors need to know.
     validations:
       required: false
 
